@@ -160,6 +160,41 @@ src/
     └── sounds.ts            # Web Audio API — all synthesized game sounds
 ```
 
+## 🗺️ Roadmap
+
+### New Mechanics
+- [ ] **Slide / duck** — hold ↓ to slide under overhead barriers (3rd move dimension)
+- [ ] **Double jump** — tap Space again mid-air for extra height
+- [ ] **Dash** — quick side dash to avoid last-second obstacles
+- [ ] **Moving obstacles** — cars that change lanes while approaching
+- [ ] **Coin trails** — visual lines of coins forming patterns to chase
+
+### Progression & Rewards
+- [ ] **Character skins** — unlock different runners at score milestones
+- [ ] **Achievement system** — "Collect 100 coins", "Survive 5 minutes", etc.
+- [ ] **Mission system** — 3 daily objectives per session
+- [ ] **Level-based unlocks** — new city zones as you level up
+
+### Audio
+- [ ] **Background music** — looping city/jazz soundtrack that intensifies at night
+- [ ] **Ambient city sounds** — crowd noise, rain ambience, traffic hum
+
+### UI / Polish
+- [ ] **Settings screen** — graphics quality, control sensitivity
+- [ ] **Tutorial** — first-run walkthrough of controls
+- [ ] **Score sharing** — screenshot your score with a share button
+- [ ] **Ghost replay** — faint replay of your personal best run
+
+### Visual Effects
+- [ ] **Screen shake** on collision
+- [ ] **Motion blur** at high speed
+- [ ] **Magnet coin trail** — coins visually fly toward the player when magnet is active
+- [ ] **Speed lines** at high speed levels
+
+### Online / Social
+- [ ] **Online leaderboard** — compare scores globally
+- [ ] **Multiplayer** — race a friend side by side
+
 ---
 
 Built with ❤️ in Toronto.
