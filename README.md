@@ -59,19 +59,75 @@ A high-speed, 3D infinite runner game set in the streets of downtown Toronto. Do
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js v18+
-- npm
+- [Node.js](https://nodejs.org/) v18 or higher
+- npm (comes with Node.js)
+- A modern browser (Chrome, Firefox, Safari, Edge)
 
-### Installation
+> **Check your Node version:**
+> ```bash
+> node -v
+> ```
+> If it's below v18, download the latest from [nodejs.org](https://nodejs.org/).
+
+---
+
+### Step 1 — Clone the repository
 
 ```bash
 git clone https://github.com/anarayanan25/Toronto-Runner.git
+```
+
+### Step 2 — Go into the project folder
+
+```bash
 cd Toronto-Runner
+```
+
+### Step 3 — Install dependencies
+
+```bash
 npm install
+```
+
+This downloads all required packages. It may take a minute the first time.
+
+### Step 4 — Start the development server
+
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+You should see output like:
+
+```
+  VITE v6.x.x  ready in Xms
+
+  ➜  Local:   http://localhost:3000/
+```
+
+### Step 5 — Open the game
+
+Open your browser and go to:
+
+```
+http://localhost:3000
+```
+
+The game loads automatically. Use `←` `→` to move and `Space` to jump. Have fun! 🎮
+
+---
+
+### Stopping the server
+
+Press `Ctrl + C` in the terminal to stop the dev server.
+
+### Building for production
+
+```bash
+npm run build
+```
+
+The optimised output will be in the `dist/` folder, ready to deploy to any static host (Vercel, Netlify, GitHub Pages, etc.).
 
 ### Using a Custom Character
 
