@@ -1,0 +1,5 @@
+{
+  "name": "Toronto Downtown Runner",
+  "description": "A 3D infinite runner game set in downtown Toronto. Collect coins, avoid cars, and race through the city!",
+  "requestFramePermissions": []
+}
